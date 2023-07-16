@@ -1,0 +1,4 @@
+CamIsMoving = false;
+
+
+
