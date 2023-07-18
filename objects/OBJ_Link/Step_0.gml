@@ -104,6 +104,8 @@ if(OBJ_Camera.CamIsMoving == false)
 	}else{
 		last_position[0] = x;
 		last_position[1] = y;
+		last_position[2] = image_xscale;
+
 	}
 		
 		
@@ -165,9 +167,13 @@ if(OBJ_Camera.CamIsMoving == false)
 	
 	
 	if(_hole_instance_id_read.x/x == 1 and _hole_instance_id_read.y/y == 1){ //I think this may break depending on processor, I have to check :/
+		visible = false;
 		show_debug_message(string(x) + "," + string(_hole_instance_id_read.x));
 		x = last_position[0]; //reset position (before hole)
 		y = last_position[1];
+		image_xscale = last_position[2];
+		
+
 	} else {
 		var fall_dx = lerp(x, desired_x1, Link_lerp_SPEED); //move_towards_point
 		var fall_dy = lerp(y, desired_y1, Link_lerp_SPEED);
@@ -177,6 +183,7 @@ if(OBJ_Camera.CamIsMoving == false)
 	}
 	state = PLAYER_STATE.in_control_top_down;
 	show_debug_message("fall end");
+	visible = true;
 	break;
 	
 	

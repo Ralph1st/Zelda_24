@@ -1,9 +1,12 @@
- sprite_index = tile000;
+sprite_index = tile000;
 image_speed = 0;
 image_xscale = 1;
-last_position = array_create(2, x);
+visible = true;
+
+last_position = array_create(3, x);
 last_position[0] = x;
 last_position[1] = y;
+last_position[2] = image_xscale;
 
 dy = 1; //acceleration speed  basicly
 dx = 0; //x movement rigth left switch  basicly

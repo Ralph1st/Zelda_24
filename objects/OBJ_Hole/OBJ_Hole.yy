@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprite__12_",
-    "path": "sprites/sprite__12_/sprite__12_.yy",
+    "name": "sprite__12_maphole",
+    "path": "sprites/sprite__12_maphole/sprite__12_maphole.yy",
   },
   "spriteMaskId": null,
   "visible": true,

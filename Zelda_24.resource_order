@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings": [],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"sprite__12_maphole","order":1,"path":"sprites/sprite__12_maphole/sprite__12_maphole.yy",},
+  ],
 }
