@@ -17,11 +17,11 @@
   "option_operagx_mod_team_id": "",
   "option_operagx_mod_team_name": "",
   "option_operagx_mod_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.97",
+  "option_operagx_next_version": "1.0.0.98",
   "option_operagx_publicShareUrl": "",
   "option_operagx_scale": 0,
   "option_operagx_team_id": "bb481349-99df-4064-bd9d-259aa873210e",
   "option_operagx_team_name": "make-it-ralph studio",
   "option_operagx_texture_page": "2048x2048",
-  "option_operagx_version": "1.0.0.96",
+  "option_operagx_version": "1.0.0.97",
 }
